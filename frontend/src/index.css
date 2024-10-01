@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Add these lines to ensure the body takes up full height */
+html, body, #root {
+  height: 100%;
+}
+
+/* Add this to ensure the dark mode applies to the entire page */
+body {
+  @apply bg-white dark:bg-black;
+}
